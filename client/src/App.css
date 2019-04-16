@@ -1,5 +1,4 @@
 body{
-   
     background-image: url("./hero_books.jpg");
     background-position: center;
     background-size: cover;
@@ -7,7 +6,7 @@ body{
     height: 300px; 
     width: 100%;
     padding-top: 10; 
-text-align: center
+    text-align: center
 }
 /* .App {
   text-align: center;
