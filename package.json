@@ -12,7 +12,7 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
-  "author": "",
+  "author": "Linu Ramachandran",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^4.1.0",
