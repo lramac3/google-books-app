@@ -64,6 +64,6 @@ const SavedResult = props => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 export default SavedResult;
