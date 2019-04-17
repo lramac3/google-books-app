@@ -25,8 +25,13 @@ class saveBook extends Component {
 
   render () {
     return (
-      <Container fluid className='container'>
-        <Jumbotron />
+      <Container fluid className="container">
+        <Jumbotron>
+          <h1 className="text-white">(React) Google Books Search</h1>
+          <h3 className="text-white">
+            Search for and Save Books of Interest
+          </h3>
+        </Jumbotron>
         <Container>
           <SavedResult
             savedBooks={this.state.savedBooks}

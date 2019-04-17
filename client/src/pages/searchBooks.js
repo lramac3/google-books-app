@@ -67,13 +67,16 @@ class searchBooks extends Component {
     return (
       <Container fluid>
         <Jumbotron>
-          <h1 className='text-white'>
-            Search for and Save Books of Interest
+          <h1 className="text-white">
+            (React) Google Books Search
           </h1>
+          <h3 className="text-white">
+            Search for and Save Books of Interest
+          </h3>
         </Jumbotron>
         <Container>
           <Row>
-            <Col size='12'>
+            <Col size="12">
               <SearchForm
                 handleFormSubmit={this.handleFormSubmit}
                 handleInputChange={this.handleInputChange}
