@@ -68,7 +68,7 @@ class searchBooks extends Component {
       <Container fluid>
         <Jumbotron>
           <h1 className="text-white">
-            (React) Google Books Search
+            Google Books Search
           </h1>
           <h3 className="text-white">
             Search for and Save Books of Interest
