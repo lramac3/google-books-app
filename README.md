@@ -1,5 +1,5 @@
 
-![build](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![build](https://img.shields.io/badge/build-passing-brightgreen.svg)![npm](https://img.shields.io/badge/npm-v6.4.1-blue.svg)
 
 # Welcome to Google Books app
 
