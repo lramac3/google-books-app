@@ -11,6 +11,8 @@ This is a React-based Google Books Search app that allows users to search for bo
 
 The application uses React to create React components, works with helper/util functions, and utilizes React lifecycle methods to query and display books based on user searches. Node, Express, and MongoDB are also used so that users can save books to review or purchase later. 
 
+[Google Books Search](https://mern-stack-lr.herokuapp.com/)
+
 ## Technologies Used
 
 - HTML5
