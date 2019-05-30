@@ -10,7 +10,9 @@
     "client": "cd client && npm run start",
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Linu Ramachandran",
   "license": "ISC",
@@ -27,9 +29,11 @@
     "mongoose": "^5.5.2",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "react-router-dom": "^5.0.0"
+    "react-router-dom": "^5.0.0",
+    "snyk": "^1.169.2"
   },
   "engines": {
     "node": "10.15.0"
-  }
+  },
+  "snyk": true
 }
