@@ -30,7 +30,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-router-dom": "^5.0.0",
-    "snyk": "^1.169.2"
+    "snyk": "^1.685.0"
   },
   "engines": {
     "node": "10.15.0"
